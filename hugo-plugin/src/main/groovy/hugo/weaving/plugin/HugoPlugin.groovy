@@ -29,7 +29,7 @@ class HugoPlugin implements Plugin<Project> {
       debugCompile 'com.github.olbb.hugo:hugo-runtime:1.2.3'
       // TODO this should come transitively
       debugCompile 'org.aspectj:aspectjrt:1.8.6'
-      compile 'com.github.olbb.hugo:hugo-annotations:1.2.3s'
+      compile 'com.github.olbb.hugo:hugo-annotations:1.2.3'
     }
 
     project.extensions.create('hugo', HugoExtension)
